@@ -8,6 +8,7 @@ h2 {
 	color: black;
 	font-family: 'Instrument Serif', serif;
 	font-size: 25px;
+	margin-top: 5%;
 }
 
 p {
@@ -16,13 +17,9 @@ p {
     font-size: 19px;
 }
 
-
-
-
-
 section.translator {
 	margin-top: 40px;
-	margin-bottom: 200px;
+	margin-bottom: 80px;
 }
 #testo_input,
 #testo_output {
