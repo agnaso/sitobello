@@ -1,15 +1,22 @@
-
-p {
-    font-family: Helvetica, Arial, sans-serif;
-}
-
 h1 {
-	color: rgb(255,125,0);*/
+	color: black;
+	font-family: 'Instrument Serif', serif;
+	font-size: 50px;
 }
 
-p.rosso {
-	color: red;
+h2 {
+	color: black;
+	font-family: 'Instrument Serif', serif;
 }
+	
+p {
+    font-family: Helvetica, sans-serif;
+    color: violet;
+    font-size: 19 px;
+}
+
+
+
 
 
 section.translator {
