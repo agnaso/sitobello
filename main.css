@@ -19,6 +19,11 @@ p {
     color: violet;
     font-size: 16px;
     margin-block-start: 7em;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+
 }
 
 section.translator {
@@ -33,6 +38,11 @@ section.translator {
 	font-size: 16px;
 	font-family: 'Instrument Serif', serif;
 
-
-
 }
+
+#bottone {
+	font-family: Helvetica, sans-serif;
+	colour: violet;
+	display: block;
+}
+
