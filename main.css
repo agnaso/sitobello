@@ -28,7 +28,7 @@ p {
 
 section.translator {
 	margin-top: 40px;
-	margin-bottom: 80px;
+	margin-bottom: 20px;
 	margin-left: 20px;
 	margin-right: 20px;
 	display: flex;
@@ -49,5 +49,10 @@ button {
 	display: block;
 	border-radius: 10px;
 	border-color: white;
+	text-align: center;
+	margin-left: 50%;
+	margin-right: 50%;
+	margin-top: 2%;
+
 }
 
