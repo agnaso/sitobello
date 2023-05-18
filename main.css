@@ -29,6 +29,8 @@ p {
 section.translator {
 	margin-top: 40px;
 	margin-bottom: 80px;
+	margin-left: 20px;
+	margin-right: 20px;
 	display: flex;
 }
 #testo_input,
@@ -37,12 +39,15 @@ section.translator {
 	height: auto;
 	font-size: 16px;
 	font-family: 'Instrument Serif', serif;
+	border-radius: 10px;
 
 }
-
-#bottone {
-	font-family: Helvetica, sans-serif;
-	colour: violet;
+button {
+	font-family:'Instrument Serif', serif;
+	font-size: 16px;
+	color: violet;
 	display: block;
+	border-radius: 10px;
+	border-color: white;
 }
 
