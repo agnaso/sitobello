@@ -1,5 +1,5 @@
 let alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
-let symbols = '„Ω€®™æ¨œøπåß∂ƒ∞∆ªº¬∑†©√∫˜µ'.split('');
+let symbols = 'abcdefghijklmnopqrstuvwxyz'.split('');
 //let symbols = ['•','–','$'];
 //console.log(alphabet.length, symbols.length);
 
