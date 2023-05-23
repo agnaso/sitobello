@@ -1,3 +1,13 @@
+
+@font-face {
+  font-family: knitmorse;
+  src: url(knitmorse.otf);
+}
+
+div {
+  font-family: knitmorse;
+}
+
 h1 {
 	color: black;
 	font-family: 'Instrument Serif', serif;
@@ -26,12 +36,21 @@ p {
     padding-bottom: 5%;
     padding-left: 10%;
     padding-right: 10%;
+}
 
+h3 {
+	font-family:'Instrument Serif', serif;
+	font-size: 13px;
+	color: violet;
+	border-radius: 10px;
+	border-color: white;
+	text-align: center;
+	margin-top: 6%;;
 }
 
 section.translator {
 	margin-top: 40px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	margin-left: 20px;
 	margin-right: 20px;
 	display: flex;
@@ -53,16 +72,33 @@ section.translator {
 	line-height: 28px;
 
 }
-button {
+#btn1 {
 	font-family:'Instrument Serif', serif;
 	font-size: 18px;
 	color: violet;
-	display: block;
 	border-radius: 10px;
 	border-color: white;
 	text-align: center;
-	margin-left: 47%;
-	margin-top: 2%;
-
+	margin-left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 1%;;
 }
 
+#btn2 {
+	font-family:'Instrument Serif', serif;
+	font-size: 18px;
+	color: violet;
+	border-radius: 10px;
+	border-color: white;
+	text-align: center;
+	margin-left: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	margin-top: 1%;
+}
+
+#suggestion {
+	font-family:'Instrument Serif', serif;
+	font-size: 18px;
+	color: black;
+}

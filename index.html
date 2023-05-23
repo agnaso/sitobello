@@ -8,22 +8,16 @@
 	<link rel="stylesheet" href="main.css" type="text/css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
   <script language="javascript" type="text/javascript" src="script.js"></script>
+
+
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap" rel="stylesheet">
 </head>
-<style> 
-@font-face {
-  font-family: knitmorse;
-  src: url(knitmorse.otf);
-}
 
-div {
-  font-family: knitmorse;
-}
-</style>
 
 <style>
 ::-moz-selection { /* Code for Firefox */
@@ -41,7 +35,7 @@ a {
 </style>
 
 <body>
-	<img src=img/logotipo01.png class="logotipo">
+	<img src=img/logotipo02.png class="logotipo">
 	<!--h1>hyperknit</h1-->
 	<p>Hyperknit is a project developed during the Elements of information technology for design class held by Thomas Castro in ISIA Urbino. Its aim is to consider knitting as a possible site of feminist practice. Reading essays such as <i>Knitting as a Feminist Project?</i> by the American researcher Maura Kelly, and the discovery of the <i>Stitch 'n Bitch</i> groups, that offer safe spaces to knit and express progressive political engagement, were key in inspiring this project. 
 The revival of knitting as a popular hobby for both women and men seems to have become a way to allow the reappropriation of such a devalued and traditionally domestic feminine craft in a way that challenges gender norms by creating alternatives to the definition of feminine and masculine. 
@@ -53,15 +47,20 @@ In the final pattern, there is also another layer of interpretation: the percent
     <textarea readonly id="testo_output" name="testo_output"></textarea>
   
   </section>
-   <button onclick="translateText()" >translate!</button>
 
-<p>ricordati di aggiungere i dati sul colore</p>
+<button id="btn1" onclick="translateText()" >translate!</button>
+
+<!--button id="btn2" onclick="startDownload()" >download pattern<button-->
+
+<button id="btn2" onclick="stampaContenuto()" >print your pattern</button>
+
+
+<h3>suggested percentages of colours based on gender related data in Italy:</h3>
+<h3 id="suggestion"></h3>
 
 </body>
-
 <footer>
   <h2>by agnese pozzobon<br>
   <a href="mailto:agnese.pozzobon@studenti.isiaurbino.net">agnese.pozzobon@studenti.isiaurbino.net</a></h2>
 </footer>
-
 </html>
