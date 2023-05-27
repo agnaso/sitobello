@@ -7,7 +7,7 @@ function getRandomInt(myEl) {
 }
 
 function printMyPercent(){
-	let paroleACaso = ['Composition of the Italian Parliament 31% are women and 69% are men. (2022)', 'In Italy, women managers make up just 27.0% of the total number of managers. (2018)', 'c', 'ciao', "pollo", 'pranzo', 'mezzogiorno', 4, 23, 56];
+	let paroleACaso = ['W 31% M 69% - Composition of the Parliament (2022)','W 43.1% M 56.9% - Share of ministers (2022)','W 22.8% M 77.2% - Share of members of regional assemblies (2022)','W 39.6% M 60.4% - Share of members of boards in largest quoted companies, supervisory board or board of directors (2022)','W 26.1% M 73.9% - Share of members of highest decision making body of the national Olympic sport organisations (2022)'];
 	let randomNumber = getRandomInt(paroleACaso.length-1);
 	$('#suggestion')[0].innerText = paroleACaso[randomNumber];
 }
@@ -60,14 +60,14 @@ function startDownload() {
 function stampaContenuto() {
       var textareaValue = document.getElementById("testo_output").value;
       
-      // Creazione di un nuovo documento PDF
       var doc = new jsPDF();
 
-      doc.setFont("knitmorse");
-      
-      // Aggiunta del contenuto della textarea al documento PDF
+      doc.setFont('knitmorse', 'normal');
+      //doc.setFont('knitmorse');
+      //doc.setFontType('normal');
+
       doc.text(textareaValue, 10, 10,);
       
-      // Salvataggio del documento PDF come file
       doc.save("hyperknit.pdf");
+       
     }
